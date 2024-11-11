@@ -4,9 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#f4f7da",
-        secondary: "#a3ffac",
-        dark: "#252120",
+        websiteBackground: "#1B1D1F",
+        siteNameAccent: "#00FF7F",
+        cartItemAccent: "#29A19C",
+        itemCardBackground: "#252A2E",
+        itemTitleColor: "#00FF7F",
+        itemDescriptionColor: "#A6A6A6",
+        itemBackground: "#2E3436",
+        itemPriceHighlight: "#FFD700",
       },
       fontFamily: {
         sans: ["Roboto Mono"],

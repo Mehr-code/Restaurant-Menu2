@@ -1,0 +1,60 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "title": "Kernel Kickstart Espresso",
+      "price": 5.99,
+      "description": "Espresso shot with extra intensity, designed to boost your system like the Linux kernel.",
+      "img": "/img/kernel-kickstart.png"
+    },
+    {
+      "id": 2,
+      "title": "Terminal Turbo Latte",
+      "price": 6.99,
+      "description": "A smooth latte to power you through endless command lines and coding sessions.",
+      "img": "/img/terminal-turbo.png"
+    },
+    {
+      "id": 3,
+      "title": "Sudo Power Shot",
+      "price": 4.5,
+      "description": "An espresso shot with root access to energize your day with admin-level strength.",
+      "img": "/img/sudo-power.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Root Access Cappuccino",
+      "price": 7.25,
+      "description": "A cappuccino with double foam, perfect for those who need full system control.",
+      "img": "/img/root-access.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Bash Brew Delight",
+      "price": 6.5,
+      "description": "A deeply aromatic blend of coffee that satisfies both coders and coffee aficionados.",
+      "img": "/img/bash-brew-delight.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Open-Source Java Mocha",
+      "price": 7.99,
+      "description": "A rich mocha with a variety of ‘open-source’ flavors that everyone can savor.",
+      "img": "/img/open-source-java.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Minty Refresh Protocol Chai",
+      "price": 5.75,
+      "description": "A minty chai to cool your circuits and keep you refreshed while you code.",
+      "img": "/img/minty-refresh-protocol.png"
+    },
+    {
+      "id": 8,
+      "title": "Firewall Frosted Frappé",
+      "price": 8.0,
+      "description": "A cool, spicy frappé that keeps the heat out and your energy high.",
+      "img": "/img/firewall-frosted.png"
+    }
+  ]
+}

@@ -7,5 +7,12 @@
 }
 
 body {
-  @apply bg-dark;
+  @apply bg-websiteBackground;
+}
+
+.card {
+  @apply bg-itemBackground shadow-xl rounded-sm p-6 w-[450px] h-72;
+}
+.btn {
+  @apply bg-[#00A86B] py-1 px-2 rounded-sm text-lg text-white w-full h-10 hover:bg-green-600 transition;
 }
