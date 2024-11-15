@@ -1,20 +1,33 @@
 <template>
-  <div class="card flex items-center gap-8">
+  <!-- Whole card -->
+  <div
+    class="card flex flex-col lg:flex-row items-center lg:gap-8 gap-0 relative"
+  >
+    <!-- IMG -->
     <img
       :src="product.img"
       :alt="product.title"
       class="w-full h-32 rounded-md mb-3"
     />
-    <div>
-      <p class="text-lg text-itemTitleColor">
+    <!-- Info -->
+    <div class="flex flex-col gap-2">
+      <!-- Title -->
+      <p
+        class="lg:text-lg text-sm font-bold text-itemTitleColor w-[50%] sm:text-wrap lg:text-nowrap"
+      >
         {{ product.title }}
       </p>
-      <p class="text-sm text-itemDescriptionColor">{{ product.description }}</p>
-      <p class="text-lg font-bold text-itemPriceHighlight my-3">
+      <!-- Desc -->
+      <p class="text-sm text-itemDescriptionColor h-16 invisible lg:visible">
+        {{ product.description }}
+      </p>
+      <p
+        class="lg:text-lg font-bold text-sm text-itemPriceHighlight absolute bottom-14 right-4 lg:my-3 lg:static"
+      >
         {{ product.price }} Linuxeum
       </p>
       <button class="btn">
-        <span>Add to Basket</span>
+        <span>Add to Card</span>
       </button>
     </div>
   </div>

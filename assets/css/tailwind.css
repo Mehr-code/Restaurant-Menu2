@@ -10,9 +10,13 @@ body {
   @apply bg-websiteBackground;
 }
 
-.card {
+/* .card {
   @apply bg-itemBackground shadow-xl rounded-sm p-6 w-[450px] h-72;
+} */
+.card {
+  @apply bg-itemBackground shadow-xl rounded-sm p-6 w-[200px] h-72 sm:w-[300px] md:w-[350px] lg:w-[400px] xl:w-[450px];
 }
+
 .btn {
-  @apply bg-[#00A86B] py-1 px-2 rounded-sm text-lg text-white w-full h-10 hover:bg-green-600 transition;
+  @apply bg-[#00A86B] py-1 px-2 rounded-sm text-lg text-white lg:w-48 lg:h-10 hover:bg-green-600 transition lg:static absolute bottom-3 right-8;
 }

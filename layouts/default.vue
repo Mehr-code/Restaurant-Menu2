@@ -5,7 +5,9 @@
         ><h1 class="text-siteNameAccent text-5xl">Linux Ali</h1></nuxt-link
       >
       <nuxt-link to="/cart"
-        ><span class="material-symbols-outlined text-white text-5xl">
+        ><span
+          class="material-symbols-outlined text-white text-5xl mr-10 hover:text-itemTitleColor transition"
+        >
           shopping_bag
         </span></nuxt-link
       >
@@ -16,6 +18,11 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { useCartStore } from "~/stores/cartStore";
+
+const cartStore = useCartStore();
+cartStore.getCard();
+</script>
 
 <style scoped></style>

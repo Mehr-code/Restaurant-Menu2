@@ -1,8 +1,35 @@
 {
+  "cart": [
+    {
+      "id": 1,
+      "title": "Kernel Espresso",
+      "price": 5.99,
+      "description": "Espresso shot with extra intensity, designed to boost your system like the Linux kernel.",
+      "img": "/img/kernel-kickstart.png",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "title": "Terminal Turbo Latte",
+      "price": 6.99,
+      "description": "A smooth latte to power you through endless command lines and coding sessions.",
+      "img": "/img/terminal-turbo.png",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "title": "Minty Protocol Chai",
+      "price": 5.75,
+      "description": "A minty chai to cool your circuits and keep you refreshed while you code.",
+      "img": "/img/minty-refresh-protocol.png",
+      "quantity": 1
+    }
+  ],
+
   "product": [
     {
       "id": 1,
-      "title": "Kernel Kickstart Espresso",
+      "title": "Kernel Espresso",
       "price": 5.99,
       "description": "Espresso shot with extra intensity, designed to boost your system like the Linux kernel.",
       "img": "/img/kernel-kickstart.png"
@@ -44,14 +71,14 @@
     },
     {
       "id": 7,
-      "title": "Minty Refresh Protocol Chai",
+      "title": "Minty Protocol Chai",
       "price": 5.75,
       "description": "A minty chai to cool your circuits and keep you refreshed while you code.",
       "img": "/img/minty-refresh-protocol.png"
     },
     {
       "id": 8,
-      "title": "Firewall Frosted Frappé",
+      "title": "Firewall Frappé",
       "price": 8.0,
       "description": "A cool, spicy frappé that keeps the heat out and your energy high.",
       "img": "/img/firewall-frosted.png"
