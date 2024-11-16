@@ -18,7 +18,9 @@
         {{ product.title }}
       </p>
       <!-- Desc -->
-      <p class="text-sm text-itemDescriptionColor h-16 invisible lg:visible">
+      <p
+        class="text-sm text-itemDescriptionColor h-16 invisible lg:visible text-justify"
+      >
         {{ product.description }}
       </p>
       <p
