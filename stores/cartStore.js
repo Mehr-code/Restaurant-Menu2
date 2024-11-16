@@ -1,4 +1,4 @@
-import { defineStore } from "#build/imports";
+import { defineStore } from "pinia";
 
 export const useCartStore = defineStore("cart", {
   state: () => ({
@@ -6,7 +6,7 @@ export const useCartStore = defineStore("cart", {
   }),
   actions: {
     async getCard() {
-      const data = await $fetch("https://localhost:4000/cart");
+      const data = await $fetch("http://localhost:4000/cart");
       this.cart = data;
       console.log(this.cart);
     },
