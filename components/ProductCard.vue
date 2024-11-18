@@ -4,11 +4,7 @@
     class="card flex flex-col lg:flex-row items-center lg:gap-8 gap-0 relative"
   >
     <!-- IMG -->
-    <img
-      :src="product.img"
-      :alt="product.title"
-      class="w-full h-32 rounded-md mb-3"
-    />
+    <img :src="product.img" :alt="product.title" class="rounded-md mb-3" />
     <!-- Info -->
     <div class="flex flex-col gap-2">
       <!-- Title -->
