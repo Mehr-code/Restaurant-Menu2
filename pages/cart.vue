@@ -20,7 +20,7 @@
       <!-- cart total -->
       <div class="text-right pt-4 mt-4 border-t-2">
         <span class="text-white">Total amount to pay: </span>
-        <span class="text-white">{{ cartStore.cartTotal() }} </span>
+        <span class="text-white">{{ cartStore.cartTotal }} </span>
       </div>
     </div>
     <div v-else>
