@@ -20,7 +20,7 @@
         {{ product.description }}
       </p>
       <p
-        class="lg:text-lg font-bold text-sm text-itemPriceHighlight absolute bottom-14 right-4 lg:my-3 lg:static"
+        class="lg:text-lg font-bold text-sm text-itemPriceHighlight absolute bottom-14 right-8 lg:my-3 lg:static"
       >
         {{ product.price }} Linuxeum
       </p>

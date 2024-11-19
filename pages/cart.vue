@@ -8,19 +8,24 @@
     >
       <!-- Product List -->
       <div
-        class="items-center text-xl grid grid-cols-3"
+        class="items-center text-xl grid grid-cols-4"
         v-for="product in cartStore.cart"
       >
         <img :src="product.img" :alt="product.title" />
         <p class="text-white">{{ product.title }}</p>
-        <p class="text-itemPriceHighlight">
+        <p class="text-itemPriceHighlight text-lg ml-8">
           {{ product.price * product.quantity }} Linuxeum
         </p>
+
+        <!-- delete -->
+        <button class="ml-auto" @click="cartStore.deleteFromCart(product)">
+          <span class="material-symbols-outlined text-red-500"> delete </span>
+        </button>
       </div>
       <!-- cart total -->
-      <div class="text-right pt-4 mt-4 border-t-2">
+      <div class="text-right pt-4 pr-5 mt-4 border-t-2">
         <span class="text-white">Total amount to pay: </span>
-        <span class="text-white">{{ cartStore.cartTotal }} </span>
+        <span class="text-white">{{ cartStore.cartTotal }} Linuxeum</span>
       </div>
     </div>
     <div v-else>

@@ -16,5 +16,10 @@ export const useCartStore = defineStore("cart", {
       const data = await $fetch("http://localhost:4000/cart");
       this.cart = data;
     },
+    async deleteFromCart(product) {
+      this.cart = this.cart.filter((p) => {
+        return p.id !== product.id;
+      });
+    },
   },
 });
