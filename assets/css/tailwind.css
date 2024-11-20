@@ -20,6 +20,9 @@ body {
 .btn {
   @apply bg-[#00A86B] py-1 px-2 rounded-sm text-lg text-white lg:w-48 lg:h-10 hover:bg-green-600 transition lg:static absolute bottom-3 right-8;
 }
+.btnBasket {
+  @apply bg-[#00A86B] py-1 px-2 rounded-sm text-lg text-white h-10  hover:bg-green-600 transition;
+}
 img {
   @apply md:w-44 md:h-44 w-32 h-32 lg:w-28 lg:h-28;
 }

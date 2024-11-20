@@ -8,18 +8,24 @@
     >
       <!-- Product List -->
       <div
-        class="items-center text-xl grid grid-cols-4"
+        class="items-center grid grid-cols-5 gap-5"
         v-for="product in cartStore.cart"
       >
         <img :src="product.img" :alt="product.title" />
         <p class="text-white">{{ product.title }}</p>
+
+        <!-- product quantity -->
+        <ProductQuantity :product="product" />
+
         <p class="text-itemPriceHighlight text-lg ml-8">
           {{ product.price * product.quantity }} Linuxeum
         </p>
 
         <!-- delete -->
         <button class="ml-auto" @click="cartStore.deleteFromCart(product)">
-          <span class="material-symbols-outlined text-red-500"> delete </span>
+          <span class="material-symbols-outlined text-3xl text-red-500">
+            delete
+          </span>
         </button>
       </div>
       <!-- cart total -->
