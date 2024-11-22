@@ -8,7 +8,7 @@
     >
       <!-- Product List -->
       <div
-        class="items-center grid grid-cols-5 gap-5"
+        class="items-center grid grid-cols-5 gap-5 mb-8"
         v-for="product in cartStore.cart"
       >
         <img :src="product.img" :alt="product.title" />
