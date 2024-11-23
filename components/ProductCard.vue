@@ -24,7 +24,7 @@
       >
         {{ product.price }} Linuxeum
       </p>
-      <button class="btn">
+      <button class="btn" @click="addToBasket()">
         <span>Add to Card</span>
       </button>
     </div>
@@ -32,7 +32,13 @@
 </template>
 
 <script setup>
+import { useCartStore } from "@/stores/cartStore";
+
 const { product } = defineProps(["product"]);
+const cartStore = useCartStore();
+const addToBasket = async () => {
+  await cartStore.addToCart(product);
+};
 </script>
 
 <style scoped></style>

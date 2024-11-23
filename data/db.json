@@ -23,6 +23,22 @@
       "description": "A minty chai to cool your circuits and keep you refreshed while you code.",
       "img": "/img/minty-refresh-protocol.png",
       "quantity": 1
+    },
+    {
+      "id": "5",
+      "title": "Bash Brew Delight",
+      "price": 6.5,
+      "description": "A deeply aromatic blend of coffee that satisfies both coders and coffee aficionados.",
+      "img": "/img/bash-brew-delight.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "8",
+      "title": "Firewall Frappé",
+      "price": 8,
+      "description": "A cool, spicy frappé that keeps the heat out and your energy high.",
+      "img": "/img/firewall-frosted.png",
+      "quantity": 2
     }
   ],
   "product": [
