@@ -14,7 +14,7 @@
       "price": 6.99,
       "description": "A smooth latte to power you through endless command lines and coding sessions.",
       "img": "/img/terminal-turbo.png",
-      "quantity": 1
+      "quantity": 3
     },
     {
       "id": "7",
@@ -39,6 +39,22 @@
       "description": "A cool, spicy frappé that keeps the heat out and your energy high.",
       "img": "/img/firewall-frosted.png",
       "quantity": 2
+    },
+    {
+      "id": "4",
+      "title": "Root Access Cappuccino",
+      "price": 7.25,
+      "description": "A cappuccino with double foam, perfect for those who need full system control.",
+      "img": "/img/root-access.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "7",
+      "title": "Minty Protocol Chai",
+      "price": 5.75,
+      "description": "A minty chai to cool your circuits and keep you refreshed while you code.",
+      "img": "/img/minty-refresh-protocol.png",
+      "quantity": 1
     }
   ],
   "product": [
