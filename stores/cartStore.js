@@ -59,6 +59,7 @@ export const useCartStore = defineStore("cart", {
 
     // Add a Product
     async addToCart(product) {
+      // Exist a product?
       const exists = this.cart.find((p) => p.id === product.id);
       if (exists) {
         this.incQuantity(product);

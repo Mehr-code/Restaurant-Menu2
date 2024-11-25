@@ -14,7 +14,7 @@
       "price": 6.99,
       "description": "A smooth latte to power you through endless command lines and coding sessions.",
       "img": "/img/terminal-turbo.png",
-      "quantity": 3
+      "quantity": 4
     },
     {
       "id": "7",
@@ -22,7 +22,7 @@
       "price": 5.75,
       "description": "A minty chai to cool your circuits and keep you refreshed while you code.",
       "img": "/img/minty-refresh-protocol.png",
-      "quantity": 1
+      "quantity": 5
     },
     {
       "id": "5",

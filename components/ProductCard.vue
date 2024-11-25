@@ -25,6 +25,7 @@
         {{ product.price }} Linuxeum
       </p>
       <button class="btn" @click="addToBasket()" :disabled="isPending">
+        <!-- Loading Stuff -->
         <span v-show="!isPending">Add to Card</span>
         <span v-show="isPending">Adding...</span>
       </button>
@@ -37,7 +38,10 @@ import { useCartStore } from "@/stores/cartStore";
 
 const { product } = defineProps(["product"]);
 const cartStore = useCartStore();
+
+// For loading
 const isPending = ref(false);
+
 const addToBasket = async () => {
   isPending.value = true;
   await cartStore.addToCart(product);
